@@ -1,0 +1,170 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "IBM Plex Sans", sans-serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  
+  --color-gold-50: #fbf8f1;
+  --color-gold-100: #f5eddb;
+  --color-gold-200: #ebd9b6;
+  --color-gold-300: #dec08a;
+  --color-gold-400: #d0a660;
+  --color-gold-500: #b8860b; /* Primary Gold */
+  --color-gold-600: #a67108;
+  --color-gold-700: #85560a;
+  --color-gold-800: #6e450f;
+  --color-gold-900: #5b3912;
+  
+  --color-navy-50: #f0f4f8;
+  --color-navy-100: #dbe4ef;
+  --color-navy-200: #bccce0;
+  --color-navy-300: #90abc9;
+  --color-navy-400: #6486ae;
+  --color-navy-500: #466993;
+  --color-navy-600: #345278;
+  --color-navy-700: #2a4262;
+  --color-navy-800: #253851;
+  --color-navy-900: #1a2744; /* Primary Navy */
+  --color-navy-950: #131b2e;
+}
+
+:root {
+  /* Light Theme (Cream/Paper) */
+  --background: oklch(0.98 0.01 85); /* Creamy off-white */
+  --foreground: oklch(0.20 0.02 260); /* Deep Charcoal/Navy */
+  
+  --card: oklch(0.99 0.005 85);
+  --card-foreground: oklch(0.20 0.02 260);
+  
+  --popover: oklch(0.99 0.005 85);
+  --popover-foreground: oklch(0.20 0.02 260);
+  
+  --primary: oklch(0.25 0.05 260); /* Deep Navy */
+  --primary-foreground: oklch(0.98 0.01 85);
+  
+  --secondary: oklch(0.95 0.01 85);
+  --secondary-foreground: oklch(0.25 0.05 260);
+  
+  --muted: oklch(0.94 0.01 85);
+  --muted-foreground: oklch(0.45 0.02 260);
+  
+  --accent: oklch(0.96 0.01 85);
+  --accent-foreground: oklch(0.25 0.05 260);
+  
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+  
+  --border: oklch(0.85 0.02 85); /* Subtle gold/cream border */
+  --input: oklch(0.85 0.02 85);
+  --ring: oklch(0.65 0.15 85); /* Gold ring */
+  
+  --radius: 0rem; /* Sharp corners for classical feel */
+}
+
+.dark {
+  /* Dark Theme (Deep Navy/Gold) - This will be our primary look */
+  --background: oklch(0.18 0.04 265); /* #1a2744 approx */
+  --foreground: oklch(0.96 0.01 85); /* Off-white */
+  
+  --card: oklch(0.20 0.04 265);
+  --card-foreground: oklch(0.96 0.01 85);
+  
+  --popover: oklch(0.20 0.04 265);
+  --popover-foreground: oklch(0.96 0.01 85);
+  
+  --primary: oklch(0.72 0.16 85); /* #b8860b Gold */
+  --primary-foreground: oklch(0.18 0.04 265);
+  
+  --secondary: oklch(0.25 0.04 265);
+  --secondary-foreground: oklch(0.96 0.01 85);
+  
+  --muted: oklch(0.25 0.04 265);
+  --muted-foreground: oklch(0.70 0.02 265);
+  
+  --accent: oklch(0.25 0.04 265);
+  --accent-foreground: oklch(0.96 0.01 85);
+  
+  --destructive: oklch(0.4 0.15 25);
+  --destructive-foreground: oklch(0.985 0 0);
+  
+  --border: oklch(0.35 0.05 265); /* Subtle navy border */
+  --input: oklch(0.35 0.05 265);
+  --ring: oklch(0.72 0.16 85); /* Gold ring */
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-wide;
+  }
+  
+  /* Custom Scrollbar for Webkit */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-navy-950);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-navy-700);
+    border: 1px solid var(--color-navy-600);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-gold-600);
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 1400px;
+  }
+  
+  /* Classical Border Utility */
+  .border-gold-gradient {
+    border-image: linear-gradient(to right, transparent, var(--color-gold-500), transparent) 1;
+  }
+  
+  .text-gold-gradient {
+    background: linear-gradient(to bottom right, var(--color-gold-300), var(--color-gold-500), var(--color-gold-700));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
