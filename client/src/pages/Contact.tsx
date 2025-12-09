@@ -28,7 +28,7 @@ export default function Contact() {
 
   const onSubmit = async (data: ContactFormValues) => {
     try {
-      const response = await fetch("https://formspree.io/f/management@kiasufamilytrust.org", {
+      const response = await fetch("https://formspree.io/f/xgvgldqk", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
