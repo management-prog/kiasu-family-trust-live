@@ -106,10 +106,10 @@ export default function Home() {
           </div>
           <div className="md:w-1/2">
             <p className="text-cream-100/70 text-lg leading-relaxed font-light mb-8">
-              The Kiasu Family Trust was established to formalize the governance and investment activities of a single family. Our name, derived from the Hokkien vernacular for "fear of losing out," is reinterpreted here not as anxiety, but as an uncompromising vigilance—a refusal to accept mediocrity or complacency in the management of our affairs.
+              The Kiasu Family Trust exists to enforce a singular mandate: the absolute sovereignty of family capital. We interpret our name as a doctrine of <span className="text-gold-500 font-medium">Total Vigilance</span>—an institutional intolerance for uncaptured value. We refuse to cede ground to inflation, volatility, or mediocrity.
             </p>
             <p className="text-cream-100/70 text-lg leading-relaxed font-light mb-12">
-              We employ a rigorous, quantitative approach to capital allocation, balanced by a qualitative appreciation for history, art, and human psychology.
+              Our strategy is not merely to participate in markets, but to extract from them. We combine aggressive quantitative rigor with a historian's understanding of cycles, ensuring that legacy is not just preserved, but engineered.
             </p>
             <Link href="/philosophy">
               <a className="inline-flex items-center gap-4 text-gold-500 uppercase tracking-[0.2em] text-xs hover:text-gold-400 transition-colors group">
