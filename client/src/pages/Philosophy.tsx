@@ -57,6 +57,31 @@ export default function Philosophy() {
               </div>
             ))}
           </div>
+
+          {/* Strategic Exposures */}
+          <div className="mt-32 border-t border-gold-500/10 pt-24">
+            <h2 className="font-serif text-4xl text-cream-50 mb-16 text-center">Strategic <span className="text-gold-500 italic">Imperatives</span></h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+              <div className="bg-navy-900/30 p-12 border border-gold-500/10 backdrop-blur-sm">
+                <h3 className="font-serif text-2xl text-gold-400 mb-6">Extension of Human Capability</h3>
+                <p className="text-cream-100/70 leading-relaxed font-light mb-6">
+                  We maintain significant exposure to <span className="text-cream-50 font-medium">Neurotechnology</span> and <span className="text-cream-50 font-medium">Biotechnology</span>. We view these not as sectors, but as the next evolutionary step.
+                </p>
+                <p className="text-cream-100/70 leading-relaxed font-light">
+                  Our capital funds the interface between biology and silicon, securing a stake in the future of human resilience and cognitive expansion.
+                </p>
+              </div>
+              <div className="bg-navy-900/30 p-12 border border-gold-500/10 backdrop-blur-sm">
+                <h3 className="font-serif text-2xl text-gold-400 mb-6">Sovereign Land Acquisition</h3>
+                <p className="text-cream-100/70 leading-relaxed font-light mb-6">
+                  Digital wealth requires physical grounding. We aggressively acquire and develop <span className="text-cream-50 font-medium">Real Estate</span> assets that offer strategic utility.
+                </p>
+                <p className="text-cream-100/70 leading-relaxed font-light">
+                  From development to renovation, our portfolio is anchored in tangible sovereignty—land that cannot be printed, deleted, or debased.
+                </p>
+              </div>
+            </div>
+          </div>
         </motion.div>
       </section>
     </Layout>
