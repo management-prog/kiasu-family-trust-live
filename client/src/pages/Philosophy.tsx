@@ -80,6 +80,24 @@ export default function Philosophy() {
                   From trophy residential developments to sovereign land holdings, our portfolio is anchored in tangible assets that command premiums across all market cycles.
                 </p>
               </div>
+              <div className="bg-navy-900/30 p-12 border border-gold-500/10 backdrop-blur-sm">
+                <h3 className="font-serif text-2xl text-gold-400 mb-6">Frontier Sovereign Growth</h3>
+                <p className="text-cream-100/70 leading-relaxed font-light mb-6">
+                  True alpha exists where institutional capital fears to tread. We have established deep operational footprints in the <span className="text-cream-50 font-medium">Dominican Republic</span> and <span className="text-cream-50 font-medium">West Africa</span>.
+                </p>
+                <p className="text-cream-100/70 leading-relaxed font-light">
+                  These are not passive investments. We engage in direct development and resource acquisition in high-growth jurisdictions that offer sovereign-level returns.
+                </p>
+              </div>
+              <div className="bg-navy-900/30 p-12 border border-gold-500/10 backdrop-blur-sm">
+                <h3 className="font-serif text-2xl text-gold-400 mb-6">Cultural Capital & IP</h3>
+                <p className="text-cream-100/70 leading-relaxed font-light mb-6">
+                  Narrative drives value. Our exposure to <span className="text-cream-50 font-medium">Entertainment</span> is focused on the ownership of intellectual property and cultural platforms.
+                </p>
+                <p className="text-cream-100/70 leading-relaxed font-light">
+                  We back creators and structures that control the zeitgeist, understanding that in an attention economy, cultural influence is a form of currency.
+                </p>
+              </div>
             </div>
           </div>
         </motion.div>
