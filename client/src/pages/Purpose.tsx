@@ -30,15 +30,15 @@ export default function Purpose() {
               {[
                 {
                   head: "Capital Preservation",
-                  body: "Our first rule is not to lose money. We prioritize the safety of principal above yield, employing conservative leverage and robust hedging strategies."
+                  body: "We do not chase yield; we demand safety. Our first and only rule is the absolute protection of principal. We employ aggressive hedging to neutralize systemic risk."
                 },
                 {
                   head: "Intellectual Rigor",
-                  body: "We believe that superior returns are the result of superior thinking. We foster a culture of deep research, contrarian debate, and continuous learning."
+                  body: "Alpha is the byproduct of superior cognition. We demand intellectual dominance, contrarian rigor, and a refusal to accept consensus narratives."
                 },
                 {
                   head: "Sovereign Independence",
-                  body: "We structure our affairs to ensure resilience against geopolitical uncertainty, regulatory shifts, and economic cycles."
+                  body: "We are beholden to no one. Our structure is designed to withstand geopolitical fracture, regulatory hostility, and the collapse of fiat systems."
                 }
               ].map((item, i) => (
                 <div key={i}>

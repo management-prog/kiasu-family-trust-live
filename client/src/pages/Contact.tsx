@@ -17,7 +17,7 @@ export default function Contact() {
                     <h2 className="font-serif text-4xl text-gold-500 mb-6">Inquiry Received</h2>
                     <p className="text-cream-100/60 font-light leading-relaxed">
                         Your correspondence has been securely transmitted to our management office. <br/>
-                        We review all inquiries, but due to the volume of correspondence, we only respond to those of strategic interest.
+                        Inquiries are filtered by an automated protocol. Only correspondence of immediate strategic relevance will receive a response.
                     </p>
                     <Button variant="link" className="text-gold-400 mt-8" onClick={() => window.location.reload()}>Return</Button>
                 </div>
@@ -41,7 +41,7 @@ export default function Contact() {
               <span className="text-gold-600 italic">Inquiries</span>
             </h1>
             <p className="text-cream-100/60 text-lg leading-relaxed font-light mb-12">
-              The Kiasu Family Trust maintains a low profile. We do not seek publicity. However, we are always open to dialogue with like-minded principals, potential partners, and exceptional talent.
+              The Kiasu Family Trust operates in the shadows. We do not seek publicity. We accept dialogue only with principals of equal standing and talent of the highest order.
             </p>
             
             <div className="space-y-8 border-t border-gold-500/10 pt-8">

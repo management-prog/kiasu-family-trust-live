@@ -17,7 +17,7 @@ export default function Legacy() {
             <span className="text-gold-600 italic">Individual</span>
           </h1>
           <p className="text-cream-100/80 text-xl leading-relaxed font-light mb-20 max-w-2xl mx-auto">
-            The Kiasu Family Trust is not merely a financial vehicle; it is a vessel for values. We are building an institution that will outlive its founders, providing stability and purpose for generations to come.
+            The Kiasu Family Trust is not a financial vehicle; it is a fortress of continuity. We are building an institution designed to outlast its founders, ensuring that power and purpose are transmitted unbroken across centuries.
           </p>
         </motion.div>
 
@@ -37,7 +37,7 @@ export default function Legacy() {
           <div className="p-16 border-r border-gold-500/10 bg-navy-950">
             <h3 className="font-serif text-3xl text-gold-500 mb-6">Philanthropy</h3>
             <p className="text-cream-100/60 leading-relaxed">
-              We believe that wealth carries a responsibility to contribute to the greater good. Our philanthropic initiatives are strategic and impact-focused, targeting areas where we can make a meaningful, measurable difference.
+              Capital is power. Power requires direction. Our philanthropy is not charity; it is strategic impact. We target high-leverage interventions where our resources can force systemic change.
             </p>
           </div>
           <div className="p-16 bg-navy-900/30">

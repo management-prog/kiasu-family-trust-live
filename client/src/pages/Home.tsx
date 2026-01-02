@@ -36,7 +36,7 @@ export default function Home() {
             <div className="h-[1px] w-24 bg-gold-500/50 my-8" />
             
             <p className="font-sans text-cream-100/80 max-w-2xl text-lg md:text-xl leading-relaxed font-light tracking-wide">
-              A private single-family office dedicated to the preservation of capital, intellectual rigor, and the continuity of legacy from our base in Puerto Rico.
+              A sovereign capital structure engineered for the absolute preservation of legacy. We operate from Puerto Rico with a mandate of total independence.
             </p>
 
             <div className="mt-16 flex gap-8">
@@ -62,15 +62,15 @@ export default function Home() {
             {[
               {
                 title: "Capital Preservation",
-                desc: "Our primary mandate is the protection of assets against inflation, volatility, and systemic risk, ensuring stability for decades to come."
+                desc: "Capital preservation is not a strategy; it is a biological imperative. We do not tolerate drawdown. We engineer stability in a chaotic world."
               },
               {
                 title: "Multigenerational View",
-                desc: "We operate on a timeline measured not in quarters, but in generations. Our decisions are guided by long-term continuity and resilience."
+                desc: "We do not measure time in quarters. We measure it in eras. Our horizon is infinite, and our resilience is absolute."
               },
               {
                 title: "Puerto Rico Base",
-                desc: "Firmly rooted in Puerto Rico, we leverage the island's unique strategic advantages while contributing to its economic ecosystem."
+                desc: "From our fortress in Puerto Rico, we leverage unique jurisdictional advantages to maximize efficiency and minimize friction."
               }
             ].map((item, i) => (
               <motion.div 

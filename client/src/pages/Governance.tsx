@@ -19,7 +19,7 @@ export default function Governance() {
                 <span className="text-gold-600 italic">Governance</span>
               </h1>
               <p className="text-cream-100/60 text-sm leading-relaxed mb-8">
-                We operate with the discipline of a public company and the discretion of a private partnership.
+                We operate with the precision of a military command and the discretion of a state secret.
               </p>
               <div className="h-[1px] w-full bg-gold-500/20" />
             </div>
@@ -28,11 +28,11 @@ export default function Governance() {
               {[
                 {
                   title: "Investment Committee",
-                  content: "All capital allocation decisions are overseen by an Investment Committee comprising family members and independent advisors. The IC meets quarterly to review portfolio performance, assess risk exposures, and approve major strategic initiatives. Decisions require unanimous consent, ensuring that only the highest-conviction ideas are pursued."
+                  content: "Capital allocation is not a democracy. Our Investment Committee operates by unanimous consent, filtering opportunities through a gauntlet of skepticism. Only the highest-conviction theses survive."
                 },
                 {
                   title: "Risk Management Framework",
-                  content: "We view risk not as a single metric, but as a multidimensional landscape. Our framework encompasses market risk, liquidity risk, counterparty risk, and operational risk. We employ stress testing and scenario analysis to understand how our portfolio behaves under extreme market conditions."
+                  content: "Risk is not a number; it is an existential threat. We map the multidimensional landscape of ruin—market, liquidity, counterparty, and operational—and engineer defenses against them. We stress-test for the unthinkable."
                 },
                 {
                   title: "Operational Excellence",
