@@ -75,6 +75,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </a>
               </Link>
             ))}
+            <Link href="/access">
+              <a 
+                className={cn(
+                  "text-[10px] tracking-[0.2em] uppercase transition-all duration-300 text-gold-500/50 hover:text-gold-400 border border-gold-500/20 px-3 py-1 hover:border-gold-500/50",
+                  location === "/access" ? "text-gold-500 border-gold-500" : ""
+                )}
+              >
+                [ Member Access ]
+              </a>
+            </Link>
           </div>
         </div>
       </nav>

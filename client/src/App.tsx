@@ -11,7 +11,7 @@ import Philosophy from "./pages/Philosophy";
 import Legacy from "./pages/Legacy";
 import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
-
+import MemberAccess from "./pages/MemberAccess";
 
 function Router() {
   return (
@@ -23,6 +23,7 @@ function Router() {
       <Route path={"/legacy"} component={Legacy} />
       <Route path={"/careers"} component={Careers} />
       <Route path={"/contact"} component={Contact} />
+      <Route path={"/access"} component={MemberAccess} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
