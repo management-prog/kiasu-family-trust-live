@@ -111,11 +111,9 @@ export default function Home() {
             <p className="text-cream-100/70 text-lg leading-relaxed font-light mb-12">
               Our strategy is not merely to participate in markets, but to extract from them. We combine aggressive quantitative rigor with a historian's understanding of cycles, ensuring that legacy is not just preserved, but engineered.
             </p>
-            <Link href="/philosophy">
-              <a className="inline-flex items-center gap-4 text-gold-500 uppercase tracking-[0.2em] text-xs hover:text-gold-400 transition-colors group">
-                Explore Our Philosophy
-                <span className="block w-8 h-[1px] bg-gold-500 group-hover:w-12 transition-all" />
-              </a>
+            <Link href="/philosophy" className="inline-flex items-center gap-4 text-gold-500 uppercase tracking-[0.2em] text-xs hover:text-gold-400 transition-colors group">
+              Explore Our Philosophy
+              <span className="block w-8 h-[1px] bg-gold-500 group-hover:w-12 transition-all" />
             </Link>
           </div>
         </div>
