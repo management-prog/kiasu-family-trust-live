@@ -72,12 +72,12 @@ export default function Philosophy() {
                 </p>
               </div>
               <div className="bg-navy-900/30 p-12 border border-gold-500/10 backdrop-blur-sm">
-                <h3 className="font-serif text-2xl text-gold-400 mb-6">Sovereign Land Acquisition</h3>
+                <h3 className="font-serif text-2xl text-gold-400 mb-6">Ultra-Prime Real Estate</h3>
                 <p className="text-cream-100/70 leading-relaxed font-light mb-6">
-                  Digital wealth requires physical grounding. We aggressively acquire and develop <span className="text-cream-50 font-medium">Real Estate</span> assets that offer strategic utility.
+                  Digital wealth requires physical grounding. We aggressively acquire <span className="text-cream-50 font-medium">Luxury Real Estate</span> assets that represent irreplaceable physical scarcity.
                 </p>
                 <p className="text-cream-100/70 leading-relaxed font-light">
-                  From development to renovation, our portfolio is anchored in tangible sovereignty—land that cannot be printed, deleted, or debased.
+                  From trophy residential developments to sovereign land holdings, our portfolio is anchored in tangible assets that command premiums across all market cycles.
                 </p>
               </div>
             </div>
