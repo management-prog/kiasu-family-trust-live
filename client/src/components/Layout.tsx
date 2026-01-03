@@ -16,9 +16,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   const navItems = [
     { name: "Purpose", path: "/purpose" },
+    { name: "Focus", path: "/focus" },
     { name: "Governance", path: "/governance" },
-    { name: "Philosophy", path: "/philosophy" },
-    { name: "Legacy", path: "/legacy" },
+    { name: "Principal", path: "/leadership" },
     { name: "Careers", path: "/careers" },
     { name: "Contact", path: "/contact" },
   ];
@@ -111,8 +111,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div className="flex flex-col gap-4">
               <h4 className="font-serif text-gold-600 text-lg italic">Structure</h4>
               <Link href="/purpose"><a className="text-xs text-cream-100/60 hover:text-gold-400 transition-colors uppercase tracking-wider">Purpose</a></Link>
+              <Link href="/focus"><a className="text-xs text-cream-100/60 hover:text-gold-400 transition-colors uppercase tracking-wider">Focus</a></Link>
               <Link href="/governance"><a className="text-xs text-cream-100/60 hover:text-gold-400 transition-colors uppercase tracking-wider">Governance</a></Link>
-              <Link href="/legacy"><a className="text-xs text-cream-100/60 hover:text-gold-400 transition-colors uppercase tracking-wider">Legacy</a></Link>
             </div>
             <div className="flex flex-col gap-4">
               <h4 className="font-serif text-gold-600 text-lg italic">Contact</h4>

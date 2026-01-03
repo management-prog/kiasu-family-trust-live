@@ -7,8 +7,8 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Purpose from "./pages/Purpose";
 import Governance from "./pages/Governance";
-import Philosophy from "./pages/Philosophy";
-import Legacy from "./pages/Legacy";
+import Focus from "./pages/Focus";
+import Leadership from "./pages/Leadership";
 import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
 import MemberAccess from "./pages/MemberAccess";
@@ -18,9 +18,9 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/purpose"} component={Purpose} />
+      <Route path={"/focus"} component={Focus} />
       <Route path={"/governance"} component={Governance} />
-      <Route path={"/philosophy"} component={Philosophy} />
-      <Route path={"/legacy"} component={Legacy} />
+      <Route path={"/leadership"} component={Leadership} />
       <Route path={"/careers"} component={Careers} />
       <Route path={"/contact"} component={Contact} />
       <Route path={"/access"} component={MemberAccess} />

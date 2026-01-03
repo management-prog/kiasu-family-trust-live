@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
 
-export default function Philosophy() {
+export default function Focus() {
   return (
     <Layout>
       <section className="min-h-screen py-32 container mx-auto px-6 flex flex-col justify-center">
