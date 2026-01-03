@@ -30,7 +30,7 @@ export default function Careers() {
               <div>
                 <h3 className="font-serif text-3xl text-cream-50 mb-6">The Standard</h3>
                 <p className="text-cream-100/70 leading-relaxed font-light">
-                  The Kiasu Family Trust is an elite, high-performance environment. We do not offer "jobs." We offer a calling for the intellectually obsessive. We seek individuals with outlier capabilities in quantitative analysis, legal structuring, or macroeconomic research.
+                  The Kiasu Family Trust is an elite, high-performance environment. We do not offer "jobs." We offer a calling for the intellectually obsessive. We seek individuals with outlier capabilities in quantitative analysis, legal structuring, or macroeconomic research. Our team operates across time zones. We value professionals who have navigated complex emerging market environments and understand capital flows beyond Western frameworks.
                 </p>
               </div>
 
@@ -39,21 +39,30 @@ export default function Careers() {
                   <h4 className="text-gold-500 text-xs uppercase tracking-widest mb-4">Prerequisites</h4>
                   <ul className="space-y-4 text-cream-100/60 text-sm font-light list-disc pl-4 marker:text-gold-600">
                     <li>Advanced degrees from top-tier global institutions (Ivy League, Oxbridge, MIT, etc.)</li>
+                    <li>We recognize excellence from the world's most selective institutions, including the Indian Institutes of Management, XLRI, and comparable programs with sub-2% admission rates.</li>
                     <li>Demonstrable track record of excellence in high-pressure environments (Top-tier Investment Banking, Big Law, Quant Funds).</li>
                     <li>Uncompromising ethical standards and discretion.</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="text-gold-500 text-xs uppercase tracking-widest mb-4">The Process</h4>
-                  <p className="text-cream-100/60 text-sm font-light leading-relaxed">
+                  <p className="text-cream-100/60 text-sm font-light leading-relaxed mb-8">
                     Our selection process is rigorous and invasive. It involves multiple rounds of technical assessments, psychological profiling, and background checks. If you are unsure if you qualify, you do not.
                   </p>
+                  
+                  <div>
+                    <h4 className="text-gold-500 text-xs uppercase tracking-widest mb-4">Current Opening</h4>
+                    <p className="text-cream-100/60 text-sm font-light leading-relaxed">
+                      Strategic Analyst — Family Office / Real Estate & Investments<br />
+                      <span className="text-cream-100/40">0-5 years experience · Remote eligible · Compensation commensurate with pedigree</span>
+                    </p>
+                  </div>
                 </div>
               </div>
 
               <div className="pt-12 border-t border-gold-500/10 text-center">
                 <p className="text-cream-100/40 text-xs italic mb-8">
-                  We are currently reviewing a significant backlog of applications. Unsolicited applications without a warm introduction are rarely considered.
+                  We are actively evaluating candidates for a Strategic Analyst role focused on real estate, alternative investments, and family office operations. Remote candidates in different global time zones are considered for candidates who present exceptional value.
                 </p>
                 <a href="mailto:management@kiasufamilytrust.org">
                   <Button variant="outline" className="border-gold-500/30 text-gold-400 hover:bg-gold-500/10 hover:text-gold-300 hover:border-gold-500/60 px-8 py-6 text-xs uppercase tracking-[0.2em] transition-all duration-500 rounded-none">
