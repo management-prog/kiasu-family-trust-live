@@ -64,11 +64,21 @@ export default function Careers() {
                 <p className="text-cream-100/40 text-xs italic mb-8">
                   We are actively evaluating candidates for a Strategic Analyst role focused on real estate, alternative investments, and family office operations. Remote candidates in different global time zones are considered for candidates who present exceptional value.
                 </p>
-                <a href="mailto:management@kiasufamilytrust.org">
+                {/* <a href="mailto:management@kiasufamilytrust.org">
                   <Button variant="outline" className="border-gold-500/30 text-gold-400 hover:bg-gold-500/10 hover:text-gold-300 hover:border-gold-500/60 px-8 py-6 text-xs uppercase tracking-[0.2em] transition-all duration-500 rounded-none">
                     Submit Credentials
                   </Button>
-                </a>
+                </a> */}
+                <Button
+      asChild
+       variant="outline"
+      className="border-gold-500/30 text-gold-400 hover:bg-gold-500/10 hover:text-gold-300 hover:border-gold-500/60 px-8 py-6 text-xs uppercase tracking-[0.2em] transition-all duration-500 rounded-none"
+    >
+  <a href="mailto:management@kiasufamilytrust.org">
+    Submit Credentials
+  </a>
+</Button>
+
               </div>
             </div>
           </div>
