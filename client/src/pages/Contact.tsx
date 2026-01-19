@@ -114,6 +114,8 @@ export default function Contact() {
                 />
                 <ValidationError prefix="Message" field="message" errors={state.errors} />
               </div>
+              <input type="hidden" name="g-recaptcha-response" />
+
 
               <Button 
                 type="submit" 
