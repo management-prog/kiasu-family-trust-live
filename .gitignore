@@ -13,6 +13,7 @@ build/
 .env.development.local
 .env.test.local
 .env.production.local
+/client/.env
 
 # IDE and editor files
 .vscode/
@@ -104,3 +105,5 @@ temp/
 *.db
 *.sqlite
 *.sqlite3
+.vercel
+.env*.local
